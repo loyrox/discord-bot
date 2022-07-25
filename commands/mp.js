@@ -17,7 +17,7 @@ module.exports.run = async(bot,message,args) => {
     const emebd1 = new Discord.MessageEmbed()
     .setDescription(args.slice(1).join(" "))
     .setFooter(`By ${message.author.tag}`)
-    .setColor(1127812)
+    .setColor("#FF0000")
   user.user
     .send(emebd1)
     .catch(() => message.channel.send("<a:x:998319688377442426> __cet utilisateur n'a pas pu être DM !__"))
