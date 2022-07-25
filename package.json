@@ -1,0 +1,21 @@
+{
+  "name": "loyrox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "SCB",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord-buttons": "^4.0.0-deprecated",
+    "discord.js": "^12.5.3",
+    "ms": "^2.1.3",
+    "quick.db": "^9.0.5"
+  }
+}
